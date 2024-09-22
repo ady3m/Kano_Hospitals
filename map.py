@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load data set
-file_path = "C:/Users/hp/Documents/map app/grid3_nga_-_health_facilities_-1.csv"
+file_path = "grid3_nga_-_health_facilities_-1.csv"
 data = pd.read_csv(file_path)
 
 # Filter data for Kano state and select specific columns
